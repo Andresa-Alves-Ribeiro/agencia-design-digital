@@ -1,0 +1,15 @@
+#secao-banner {
+  display: flex;
+  background-image: url("../../assets/banner.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#imagemDeFundo {
+    
+}
+
+.texto-banner {
+    background-color: #fafbfc;
+}

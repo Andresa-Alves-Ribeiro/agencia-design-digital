@@ -1,0 +1,48 @@
+/*.modo-claro {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .modo-escuro {
+    background-color: #252323;
+    color: #fff;
+  }
+  
+  .modo-escuro button p {
+    color: #fff;
+  }*/
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+}
+
+button {
+  display: flex;
+  background-color: transparent;
+  padding: 10px 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-modo-claro {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #747272;
+}
+
+.btn-icone {
+  height: 25px;
+  width: 25px;
+}
+
+.logo {
+  max-height: 35px;
+  width: auto;
+}
