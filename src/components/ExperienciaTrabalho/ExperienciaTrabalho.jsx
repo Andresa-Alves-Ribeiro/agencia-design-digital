@@ -3,14 +3,16 @@ import './style.css';
 
 function ExperienciaTrabalho() {
     return (
-        <div>
-            <h2>Experiências De Trabalho</h2>
-            <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
-                Sites e Marketing Digital, nos empenhamos diariamente para entregar
-                resultados que tragam impacto aos nossos clientes.</p>
+        <section id="secaoExpDeTrab" className="secao-modo-claro">
+            <div id="container-texto" className="container-texto-modo-claro">
+                <h2>Experiências De Trabalho</h2>
+                <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
+                    Sites e Marketing Digital, nos empenhamos diariamente para entregar
+                    resultados que tragam impacto aos nossos clientes.</p>
 
                 <Card />
-        </div>
+            </div>
+        </section>
     );
 }
 
