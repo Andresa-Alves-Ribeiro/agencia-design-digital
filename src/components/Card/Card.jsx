@@ -1,9 +1,8 @@
 import './style.css';
-import Logo from '../../assets/logo.png';
 
 function Card(props) {
     return (
-        <div id="card" className="card-modo-claro">
+        <div id="card" className="card-modo-escuro">
             <p className="primeiroParagrafo">{props.data}</p>
             <h4>{props.titulo}</h4>
             <p className="segundoParagrafo">{props.empresa}</p>

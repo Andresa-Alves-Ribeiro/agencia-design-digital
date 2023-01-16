@@ -3,15 +3,15 @@ import './style.css';
 
 function ExperienciaTrabalho() {
     return (
-        <section id="secaoExpDeTrab" className="secao-modo-claro">
-            <div id="container-texto" className="container-texto-modo-claro">
+        <section id="secaoExpDeTrab" className="secao-modo-escuro">
+            <div id="container-texto" className="container-texto-modo-escuro">
                 <h2>Experiências De Trabalho</h2>
                 <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
                     Sites e Marketing Digital, nos empenhamos diariamente para entregar
                     resultados que tragam impacto aos nossos clientes.</p>
             </div>
 
-            <div className="conteiner-cards limitar-secao">
+            <div className="container-cards limitar-secao">
                 <Card
                     data="JUNHO 2012 - 2016"
                     titulo="Web Designer"

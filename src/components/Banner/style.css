@@ -14,6 +14,14 @@
   object-fit: cover;
 }
 
+.fundo-modo-claro {
+  background-color: #fff;
+}
+
+.fundo-modo-escuro {
+  background-color: #252525;
+}
+
 .texto-banner {
   width: 50%;
   padding: 0px 20px;
@@ -23,22 +31,34 @@
   background-color: #fafbfc;
 }
 
-p {
+.texto-banner p {
   color: #022144;
   font-size: 12px;
   letter-spacing: 5px;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 25px;
+  padding-bottom: 20px;
 }
 
-h2 {
+.texto-banner h2 {
   color: #022144;
   font-size: 50px;
   font-weight: 500;
 }
 
-span {
+.texto-banner span {
   color: #022144;
   font-size: 50px;
   font-weight: 900;
 }
+
+@media screen and (max-width: 768px) {
+  #imagemDeFundo {
+    width: 0;
+  }
+
+  .texto-banner {
+    width: 100%;
+  }
+}
+

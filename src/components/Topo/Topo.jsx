@@ -5,11 +5,11 @@ import Sun from '../../assets/sun.png';
 
 function Topo() {
     return (
-        <header>
+        <header className="topo-modo-escuro">
             <img src={Logo} alt='Logo barbearia' className='logo'></img>
 
-            <button className="btn-modo-claro">
-                <img src={Moon} alt='ícone' className="btn-icone" />
+            <button className="btn-modo-escuro">
+                <img src={Sun} alt='ícone' className="btn-icone" />
             </button>
         </header>
     );

@@ -1,31 +1,24 @@
-/*.modo-claro {
-    background-color: #fff;
-    color: #000;
-  }
-  
-  .modo-escuro {
-    background-color: #252323;
-    color: #fff;
-  }
-  
-  .modo-escuro button p {
-    color: #fff;
-  }*/
-
 header {
   width: 100%;
-  display: flex;
-  background-color: #fff;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   z-index: 1;
 }
 
+.topo-modo-claro {
+  background-color: #fff;
+}
+
+.topo-modo-escuro {
+  background-color: #252525;
+  border-bottom: 1px solid #ffffff0d;
+}
+
 button {
   display: flex;
-  background-color: transparent;
   padding: 10px 10px;
   align-items: center;
   cursor: pointer;
@@ -35,6 +28,20 @@ button {
   background-color: #fff;
   border-radius: 25px;
   border: 2px solid #747272;
+}
+
+.btn-modo-escuro {
+  background-color: #252525;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+
+.btn-modo-claro:hover{
+  background-color: #feb633;
+}
+
+.btn-modo-escuro:hover{
+  background-color: #fff;
 }
 
 .btn-icone {
