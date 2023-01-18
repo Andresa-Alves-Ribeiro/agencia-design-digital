@@ -1,10 +1,10 @@
 import Card from '../Card/Card';
 import './style.css';
 
-function ExperienciaTrabalho() {
+function ExperienciaTrabalho(props) {
     return (
-        <section id="secaoExpDeTrab" className="secao-modo-escuro">
-            <div id="container-texto" className="container-texto-modo-escuro">
+        <section id="secaoExpDeTrab" className={props.ehTemaEscuro ? 'secao-modo-escuro' : 'secao-modo-claro'}>
+            <div id="container-texto" className={props.ehTemaEscuro ? "container-texto-modo-escuro" : "container-texto-modo-claro"}>
                 <h2>Experiências De Trabalho</h2>
                 <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de
                     Sites e Marketing Digital, nos empenhamos diariamente para entregar

@@ -7,9 +7,9 @@ import Dribble from '../../assets/dribble.png';
 import Behance from '../../assets/behance.png';
 import Google from '../../assets/google-plus.png';
 
-export default function Rodape() {
+export default function Rodape(props) {
     return (
-        <footer className='rodape-modo-escuro'>
+        <footer className={props.ehTemaEscuro ? 'rodape-modo-escuro' : 'rodape-modo-claro'}>
             <img src={Logo} alt='Logo agencia' className='logo'></img>
 
             <p className="paragrafo">Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online
@@ -24,7 +24,7 @@ export default function Rodape() {
                 <img src={Google} alt='ícone' />
             </div>
 
-            <p className="copyright-modo-escuro">Copyright 2022 © <span>Andresa A Ribeiro</span></p>
+            <p className={props.ehTemaEscuro ? "copyright-modo-escuro" : "copyright-modo-claro"}>Copyright 2022 © <span>Andresa A Ribeiro</span></p>
         </footer>
     );
 }

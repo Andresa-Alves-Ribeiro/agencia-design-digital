@@ -1,8 +1,9 @@
-import './style.css';
+import "./style.css";
 
-function Card(props) {
+export default function Card(props) {
+
     return (
-        <div id="card" className="card-modo-escuro">
+        <div id="card" className={props.ehTemaEscuro ? 'card-modo-escuro' : 'card-modo-claro'}>
             <p className="primeiroParagrafo">{props.data}</p>
             <h4>{props.titulo}</h4>
             <p className="segundoParagrafo">{props.empresa}</p>
@@ -10,5 +11,3 @@ function Card(props) {
         </div>
     );
 }
-
-export default Card;

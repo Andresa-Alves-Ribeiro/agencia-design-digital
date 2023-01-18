@@ -3,13 +3,13 @@ import Logo from '../../assets/logo.png';
 import Moon from '../../assets/moon.png';
 import Sun from '../../assets/sun.png';
 
-function Topo() {
+function Topo(props) {
     return (
-        <header className="topo-modo-escuro">
+        <header className={props.ehTemaEscuro ? "topo-modo-escuro" : "topo-modo-claro"}>
             <img src={Logo} alt='Logo barbearia' className='logo'></img>
 
-            <button className="btn-modo-escuro">
-                <img src={Sun} alt='ícone' className="btn-icone" />
+            <button onClick={props.alterarTema} className={props.ehTemaEscuro ? 'btn-modo-escuro' : 'btn-modo-claro'}>
+                <img src={props.ehTemaEscuro ? Sun : Moon} alt='ícone' className="btn-icone" />
             </button>
         </header>
     );

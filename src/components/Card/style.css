@@ -3,11 +3,10 @@
   padding: 70px 30px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   cursor: pointer;
 }
 
-#card:hover {
+#card:hover{
   background-color: #feb633;
   transition: all 1s;
 }
@@ -27,24 +26,24 @@
   border: 1px solid #edecec;
 }
 
-.card-modo-escuro {
-  border: 1px solid #ffffff0d;
-}
-
 .card-modo-claro h4 {
   color: #32333a;
-}
-
-.card-modo-escuro h4 {
-  color: #ffffff;
 }
 
 .card-modo-claro p {
   color: #8a8fa3;
 }
 
+.card-modo-escuro {
+  border: 1px solid #ffffff0d;
+}
+
+.card-modo-escuro h4{
+  color: #ffffff;
+}
+
 .card-modo-escuro p {
-  color: #9f9f9f;
+  color: #9F9F9F;
 }
 
 .primeiroParagrafo {

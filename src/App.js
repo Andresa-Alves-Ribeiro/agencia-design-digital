@@ -1,18 +1,24 @@
+import { useState } from 'react';
 import './App.css';
 import Banner from './components/Banner/Banner';
 import ExperienciaTrabalho from './components/ExperienciaTrabalho/ExperienciaTrabalho';
 import Rodape from './components/Rodape/Rodape';
 import Topo from './components/Topo/Topo';
 
-function App() {
+export default function App() {
+
+  const [ehTemaEscuro, setTemaEscuro] = useState(false)
+
+  const alterarTema = () => {
+    setTemaEscuro(!ehTemaEscuro)
+  }
+
   return (
-    <div className="App">
-      <Topo />
-      <Banner />
-      <ExperienciaTrabalho />
-      <Rodape />
-    </div>
+    <main>
+      <Topo alterarTema={alterarTema} ehTemaEscuro={ehTemaEscuro} />
+      <Banner ehTemaEscuro={ehTemaEscuro} />
+      <ExperienciaTrabalho ehTemaEscuro={ehTemaEscuro} />
+      <Rodape ehTemaEscuro={ehTemaEscuro} />
+    </main>
   );
 }
-
-export default App;
