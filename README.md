@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Agência" src="agencia.mp4" width="100%">
+  <img alt="Agência" src="agencia.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
