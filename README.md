@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Gelateria" src="barbearia.gif" width="100%">
+  <img alt="Gelateria" src="agencia.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Mini Mundo - Landing page para barbearia
+Agência Design - Landing page para uma agência de design
 
 O objetivo do projeto é criar uma Landing Page com a funcionalidade de alterar o tema de fundo, com base na ação feita pelo usuário (evento de clique).
 A landing page será autocontida, ou seja, não haverá navegação para outras páginas (internas ou externas).
@@ -52,7 +52,7 @@ Dessa forma foi posto em prática os seguintes conceitos:
 
 Você pode acessar o link abaixo e visualizar o deploy:
 
-
+https://agencia-design-digital.vercel.app/
 
 ou
 
